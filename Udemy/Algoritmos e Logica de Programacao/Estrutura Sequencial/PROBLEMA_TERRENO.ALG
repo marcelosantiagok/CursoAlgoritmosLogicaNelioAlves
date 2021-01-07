@@ -1,4 +1,5 @@
 Algoritmo "Problema_Terreno"
+<<<<<<< HEAD
   //Problema "terreno"Fazer um programa para ler as medidas da largura
   //e comprimento de um terreno retangular com uma casa decimal,
   //bem como o valor do metro quadrado do terreno com duas casas decimais.
@@ -6,6 +7,11 @@ Algoritmo "Problema_Terreno"
   //bem como o valor do pre�o do terreno, ambos com duas casas decimais,
   //conforme exemplo.
   
+=======
+  Problema "terreno"Fazer um programa para ler as medidas da largura e comprimento de um terreno retangular com uma casa decimal, 
+  bem como o valor do metro quadrado do terreno com duas casas decimais. Em seguida, o programa deve mostrar o valor da área do terreno, 
+  bem como o valor do preço do terreno, ambos com duas casas decimais, conforme exemplo.
+>>>>>>> 2d8f14280aceafb4f33e0d6895a308c0ae298c97
 Var
   largura, comprimento, valmetroquadrado, area, preco : REAL
   
