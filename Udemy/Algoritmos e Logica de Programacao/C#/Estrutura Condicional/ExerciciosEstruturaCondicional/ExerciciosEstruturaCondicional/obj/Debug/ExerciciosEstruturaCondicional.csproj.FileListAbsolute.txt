@@ -1,0 +1,6 @@
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Condicional\ExerciciosEstruturaCondicional\ExerciciosEstruturaCondicional\bin\Debug\ExerciciosEstruturaCondicional.exe.config
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Condicional\ExerciciosEstruturaCondicional\ExerciciosEstruturaCondicional\bin\Debug\ExerciciosEstruturaCondicional.exe
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Condicional\ExerciciosEstruturaCondicional\ExerciciosEstruturaCondicional\bin\Debug\ExerciciosEstruturaCondicional.pdb
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Condicional\ExerciciosEstruturaCondicional\ExerciciosEstruturaCondicional\obj\Debug\ExerciciosEstruturaCondicional.csprojAssemblyReference.cache
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Condicional\ExerciciosEstruturaCondicional\ExerciciosEstruturaCondicional\obj\Debug\ExerciciosEstruturaCondicional.exe
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Condicional\ExerciciosEstruturaCondicional\ExerciciosEstruturaCondicional\obj\Debug\ExerciciosEstruturaCondicional.pdb

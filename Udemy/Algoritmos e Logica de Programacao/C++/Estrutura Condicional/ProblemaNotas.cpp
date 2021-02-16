@@ -13,6 +13,20 @@ mensagem "REPROVADO", conforme exemplos.
 using namespace std;
 
 int main(){
+	
+	cout << "Digite a primeira nota: ";
+	double nota1, nota2;
+	cin >> nota1;
+	cout << "Digite a segunda nota: ";
+	cin >> nota2;
+	
+	cout << fixed << setprecision(1);
+	if((nota1+nota2) > 60.00){
+		cout << "NOTA FINAL = " << nota1+nota2 << endl;
+	}else{
+		cout << "NOTA FINAL = " << nota1+nota2 << endl;
+		cout << "REPROVADO";
+	}
 
     return 0;
 }

@@ -14,6 +14,26 @@ valor restante conforme exemplo.
 using namespace std;
 
 int main(){
+	
+	double preco, dinheiro,troco;
+	int qtd;
+
+	cout << "Preço unitário do produto: ";
+	cin >> preco;
+	cout << "Quantidade comprada: ";
+	cin >> qtd;
+	cout << "Dinheiro recebido: ";
+	cin >> dinheiro;
+	
+	cout << fixed << setprecision(2);
+	if((preco * qtd) < dinheiro){
+		troco = dinheiro - (preco * qtd);
+		cout << "TROCO = " << troco;
+	}else{
+		troco = (preco * qtd) - dinheiro;
+		cout << "DINHEIRO INSUFICIENTE. FALTAM " << troco << " REAIS";
+	}
+	
 
     return 0;
 }
