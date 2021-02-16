@@ -12,6 +12,19 @@ mostrar o valor do troco a ser devolvido ao cliente.
 using namespace std;
 
 int main(){
+	
+	double preco, dinheiro, troco;
+	int qtd;
+	
+	cout << "Preço unitário do produto: ";
+	cin >> preco;
+	cout << "Quantidade comprada: ";
+	cin >> qtd;
+	cout << "Dinheiro recebido: ";
+	cin >> dinheiro;
+	cout << fixed << setprecision(2);
+	troco = dinheiro - (preco * qtd);
+	cout << "TROCO = " << troco;
 
     return 0;
 }

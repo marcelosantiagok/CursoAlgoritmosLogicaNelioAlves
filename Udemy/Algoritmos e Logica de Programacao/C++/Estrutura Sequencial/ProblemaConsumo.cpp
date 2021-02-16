@@ -13,7 +13,14 @@ using namespace std;
 
 int main(){
 
-    cout << "Hello World";
+	double distancia, combustivel;
+
+    cout << "Distancia percorrida: ";
+    cin >> distancia;
+    cout << "Combustivel gasto: ";
+    cin >> combustivel;
+    cout << fixed << setprecision(3);
+    cout << "Consumo medio = " << distancia / combustivel;
 
     return 0;
 }

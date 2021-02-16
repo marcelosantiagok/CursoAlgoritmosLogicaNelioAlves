@@ -9,10 +9,22 @@ uma mensagem explicativa, conforme exemplo.
 
 #include <iostream>
 #include <iomanip>
-
+#include <string>
 using namespace std;
 
 int main(){
+	
+	string nome;
+	double valorPorHora, horas;
+	
+	cout << "Nome: ";
+	getline(cin, nome);
+	cout << "Valor por hora: ";
+	cin >> valorPorHora;
+	cout << "Horas trbalhadas: ";
+	cin >> horas;
+	cout << fixed << setprecision(2);
+	cout << "O pagamento para " << nome << " deve ser " << valorPorHora*horas;
 
     return 0;
 }

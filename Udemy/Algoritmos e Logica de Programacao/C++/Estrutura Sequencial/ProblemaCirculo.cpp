@@ -9,10 +9,21 @@ diretamente o valor 3.14159.
 
 #include <iostream>
 #include <iomanip>
+#include <math.h>
 
 using namespace std;
 
 int main(){
+	
+	double area, raio;
+	
+	
+	cout << "Digite o valor do raio do circulo: ";
+	cin >> raio;
+	area = M_PI * pow(raio,2);
+	cout << fixed << setprecision(3);
+	cout << "AREA = " << area;
+
 
     return 0;
 }
