@@ -17,8 +17,19 @@ Diabetes Maior de 140 mg/dl
 using namespace std;
 
 int main(){
-
 	
+	double glicose;
+
+	cout << "Digite a medida da glicose: ";
+	cin >> glicose;
+	
+	if(glicose < 101){
+		cout << "Classificacao: normal";
+	}else if(glicose < 141){
+		cout << "Classificacao: elevado";
+	}else{
+		cout << "Classificacao: diabetes";
+	}
 
     return 0;
 }

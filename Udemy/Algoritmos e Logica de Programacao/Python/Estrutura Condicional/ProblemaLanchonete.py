@@ -11,3 +11,21 @@ Código do produto           Preço do produto
 4                                R$ 8.90
 5                                R$ 7.32
 '''
+
+codigo: int; qtd: int; preco: float; valor: float;
+codigo = int(input("Codigo do produto comprado: "))
+if codigo == 1:
+    preco = 5.00
+elif codigo == 2:
+    preco = 3.50
+elif codigo == 3:
+    preco = 4.80
+elif codigo == 4:
+    preco = 8.90
+elif codigo == 5:
+    preco = 7.32
+
+qtd = int(input("Quantidade comprada: "))
+
+valor = preco * qtd
+print(f"Valor a pagar: R$ {valor:.2f}")

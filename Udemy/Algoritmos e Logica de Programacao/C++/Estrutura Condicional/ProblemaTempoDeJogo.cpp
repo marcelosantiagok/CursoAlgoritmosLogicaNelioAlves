@@ -13,6 +13,25 @@ horas.
 using namespace std;
 
 int main(){
-
+	
+	int horaInicial, horaFinal, hora;
+	
+	cout << "Hora inicial: ";
+	cin >> horaInicial;
+	cout << "Hora final: ";
+	cin >> horaFinal;
+	
+	hora = 24;
+	
+	if(horaInicial > horaFinal){
+		hora = (hora - horaInicial) + horaFinal;
+	}else if(horaFinal > horaInicial){
+		hora = horaFinal - horaInicial;
+	}
+	
+	cout << "O JOGO DUROU " << hora << " HORA(S)";
+	
+	
+	
     return 0;
 }

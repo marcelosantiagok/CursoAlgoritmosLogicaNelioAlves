@@ -14,6 +14,24 @@ deduzir a fórmula de Celsius para Fahrenheit):
 using namespace std;
 
 int main(){
+	
+	char sel;
+	double C, F;
+
+	cout << "Voce vai digitar a temperatura em qual escala (C/F)? ";
+	cin >> sel;
+	cout << fixed << setprecision(2);
+	if((sel == 'F')||(sel == 'f')){
+		cout << "Digite a temperatura em Fahrenheit: ";
+		cin >> F;
+		C = 5.0 / 9.0 * (F - 32.0);
+		cout << "Temperatura equivalente em Celsius: " << C;
+	}else if((sel == 'C')||(sel == 'c')){
+		cout << "Digite a temperatura em Celsius: ";
+		cin >> C;
+		F = 9.0 * C / 5.0 + 32.0;
+		cout << "Temperatura equivalente em Fahrenheit: " << F;
+	}
 
     return 0;
 }
