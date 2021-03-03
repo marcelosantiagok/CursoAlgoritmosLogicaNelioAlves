@@ -19,6 +19,49 @@ percentual deve ser apresentado com dois dígitos após o ponto.
 using namespace std;
 
 int main(){
+	int n, c,r,s,total,qtd;
+	double percent;
+	char tipo;
+	total=0;
+	qtd=0;
+	c =0;
+	r=0;
+	s=0;
+	
+	cout << "Quantos casos de teste serao digitados? ";
+	cin >> n;
+	
+	for(int i=0;i<n;i++){
+		cout << "Quantidade de cobaias: ";
+		cin >> qtd;
+		total = total + qtd;
+		cout << "Tipo de cobaia: ";
+		cin >> tipo;
+		if((tipo == 'C')||(tipo == 'c')){
+			c = c + qtd;
+		}else if((tipo == 'R')||(tipo=='r')){
+			r = r + qtd;
+		}else if((tipo == 'S')||(tipo == 's')){
+			s = s + qtd;
+		}
+	}
+	
+	cout << fixed << setprecision(2);
+	cout << "RELATORIO FINAL: " << endl;
+	cout << "Total: "<< total << " cobaias" << endl;
+	cout << "Total de coelhos: " << c <<endl;
+	cout << "Total de ratos: " << r << endl;
+	cout << "Total de sapos: " << s << endl;
+	
+	percent = double(c * 100.00) / total;
+	cout << "Percentual de coelhos: " << percent << endl;
+	
+	percent = double(r * 100.00) / total;
+	cout << "Percentual de ratos: " << percent << endl;
+	
+	percent = double(s * 100.00)/ total;
+	cout << "Percentual de sapos: " << percent << endl;
+	
 
     return 0;
 }

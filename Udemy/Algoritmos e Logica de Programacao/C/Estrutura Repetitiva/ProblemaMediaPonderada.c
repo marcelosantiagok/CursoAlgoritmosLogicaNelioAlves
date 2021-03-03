@@ -11,5 +11,23 @@ pela soma dos pesos.
 #include<stdlib.h>
 int main (){
 
+	int num,i;
+	double a,b,c,media;
+
+	printf("Quantos casos voce vai digitar? \n");
+	scanf("%d",&num);
+	
+	for(i=0;i<num;i++){
+		printf("Digite tres numeros \n");
+		scanf("%lf",&a);
+		scanf("%lf",&b);
+		scanf("%lf",&c);
+		media = ((a * 2) + (b * 3) + (c * 5) )/ 10;
+		printf("MEDIA = %.1f\n",media);
+		
+	}
+	
+	
+
     return 0;
 }

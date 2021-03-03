@@ -1,5 +1,8 @@
 package application;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class ProblemaMediaPonderada {
 
 	public static void main(String[] args) {
@@ -11,6 +14,12 @@ que o primeiro valor tem peso 2, o segundo valor tem peso 3 e o terceiro valor t
 que a média ponderada é a soma de todos os valores multiplicados pelo seu respectivo peso, dividida
 pela soma dos pesos.
 		 * */
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		
+
+		sc.close();
 
 	}
 

@@ -10,5 +10,30 @@ apenas NULO.
 #include<stdlib.h>
 int main (){
 
+	int n,i,num;
+
+	printf("Quantos numeros voce vai digitar? ");
+	scanf("%d",&n);
+	
+	for(i=0;i<n;i++){
+		printf("Digite um numero: ");
+		scanf("%d",&num);
+		if(num == 0){
+			printf("NULO\n");
+		}else if(num % 2 == 0){
+			if(num > 0){
+				printf("PAR POSITIVO\n");
+			}else{
+				printf("PAR NEGATIVO\n");
+			}
+		}else if(num %2 != 0){
+			if(num > 0){
+				printf("IMPAR POSITIVO\n");
+			}else{
+				printf("IMPAR NEGATIVO\n");
+			}
+		}
+	}
+
     return 0;
 }

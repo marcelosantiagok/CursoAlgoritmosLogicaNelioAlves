@@ -1,5 +1,8 @@
 package application;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class ProblemaParImpar {
 
 	public static void main(String[] args) {
@@ -10,6 +13,12 @@ Para cada valor lido, mostre uma mensagem dizendo se este valor lido é PAR ou IM
 se é POSITIVO ou NEGATIVO. No caso do valor ser igual a zero (0), seu programa deverá imprimir
 apenas NULO.
 		 * */
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		
+
+		sc.close();
 
 	}
 

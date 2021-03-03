@@ -12,7 +12,7 @@ int main(){
 
 	int a,b;
 
-	printf("Digite dois numeros: ");
+	printf("Digite dois numeros: \n");
 	scanf("%d",&a);
 	scanf("%d",&b);
 
@@ -25,7 +25,7 @@ int main(){
     	printf("CRESCENTE!\n");
     }
 
-    printf("Digite outros dois numeros: ");
+    printf("Digite outros dois numeros: \n");
 	scanf("%d",&a);
 	scanf("%d",&b);
 	}

@@ -13,6 +13,37 @@ mostrar a mensagem "IMPOSSIVEL CALCULAR".
 using namespace std;
 
 int main(){
+	
+
+	int cont,idades;
+	double soma,media;
+	cout << "Digite as idades: " << endl;
+	cin >> idades;
+	cont = 0;
+
+	cout << fixed << setprecision(2);
+	
+	if(idades < 0){
+		cout << "IMPOSSIVEL CALCULAR";
+	}else{
+		
+		while(idades>=0){
+		soma = soma + idades;
+		cont = cont + 1;
+		cin >> idades;
+		}
+		media = soma / cont;
+		cout << "MEDIA = " <<media;
+
+	}
+	
+		
+	
+
+	
+
+	
+	
 
     return 0;
 }

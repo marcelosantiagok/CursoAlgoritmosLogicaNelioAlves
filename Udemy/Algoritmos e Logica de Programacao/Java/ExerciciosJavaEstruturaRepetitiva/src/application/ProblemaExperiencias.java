@@ -1,5 +1,8 @@
 package application;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class ProblemaExperiencias {
 
 	public static void main(String[] args) {
@@ -17,6 +20,13 @@ de cobaia (R:Rato S:Sapo C:Coelho). Apresente o total de cobaias utilizadas, o t
 cobaia utilizada e o percentual de cada uma em relação ao total de cobaias utilizadas, sendo que o
 percentual deve ser apresentado com dois dígitos após o ponto.
 		 * */
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		
+
+		sc.close();
 
 	}
 

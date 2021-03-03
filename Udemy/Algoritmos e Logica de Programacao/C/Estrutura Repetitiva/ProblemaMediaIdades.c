@@ -20,7 +20,7 @@ int main(){
     idade = 0;
     cont = 0;
 
-    printf("Digite as idades: ");
+    printf("Digite as idades: \n");
     scanf("%d",&idade);
     while(idade >= 0){
         soma = soma + (double)idade;

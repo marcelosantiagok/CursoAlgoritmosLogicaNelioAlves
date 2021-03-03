@@ -1,0 +1,6 @@
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Repetitiva\ExercicioEstruturaRepetitiva\ExercicioEstruturaRepetitiva\bin\Debug\ExercicioEstruturaRepetitiva.exe.config
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Repetitiva\ExercicioEstruturaRepetitiva\ExercicioEstruturaRepetitiva\bin\Debug\ExercicioEstruturaRepetitiva.exe
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Repetitiva\ExercicioEstruturaRepetitiva\ExercicioEstruturaRepetitiva\bin\Debug\ExercicioEstruturaRepetitiva.pdb
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Repetitiva\ExercicioEstruturaRepetitiva\ExercicioEstruturaRepetitiva\obj\Debug\ExercicioEstruturaRepetitiva.csprojAssemblyReference.cache
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Repetitiva\ExercicioEstruturaRepetitiva\ExercicioEstruturaRepetitiva\obj\Debug\ExercicioEstruturaRepetitiva.exe
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Repetitiva\ExercicioEstruturaRepetitiva\ExercicioEstruturaRepetitiva\obj\Debug\ExercicioEstruturaRepetitiva.pdb

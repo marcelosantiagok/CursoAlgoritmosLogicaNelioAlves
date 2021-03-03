@@ -12,6 +12,31 @@ apenas NULO.
 using namespace std;
 
 int main(){
+	
+	int n,numero;
+
+	cout << "Quantos numeros voce vai digitar? ";
+	cin >> n;
+	
+	for(int i=0;i<n;i++){
+		cout << "Digite um numero: ";
+		cin >> numero;
+		if(numero==0){
+			cout << "NULO" << endl;
+		}else if(numero > 0){
+			if(numero%2==0){
+				cout << "PAR POSITIVO" <<endl;
+			}else{
+				cout << "IMPAR POSITIVO" <<endl;
+			}
+		}else{
+			if(numero%2==0){
+				cout << "PAR NEGATIVO" <<endl;
+			}else{
+				cout << "IMPAR NEGATIVO" <<endl;
+			}
+		}
+	}
 
     return 0;
 }

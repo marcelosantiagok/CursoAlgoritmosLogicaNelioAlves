@@ -15,6 +15,32 @@ como as quantidades de cada combustível.
 using namespace std;
 
 int main(){
+	
+	int codigo,a,g,d;
+	
+	cout << "Informe um codigo (1, 2, 3) ou 4 para parar: ";
+	cin >> codigo;
+	a =0;
+	g =0;
+	d =0;
+	
+	while(codigo!=4){
+		if(codigo ==1){
+			a = a + 1;
+		}else if(codigo == 2){
+			g = g + 1;
+		}else if(codigo == 3){
+			d = d + 1;
+		}
+			cout << "Informe um codigo (1, 2, 3) ou 4 para parar: ";
+			cin >> codigo;
+	}
+	
+	cout << "MUITO OBRIGADO" << endl;
+	cout << "Alcool: " << a << endl;
+	cout << "Gasolina: " << g << endl;
+	cout << "Diesel: " << d << endl;
+	
 
     return 0;
 }

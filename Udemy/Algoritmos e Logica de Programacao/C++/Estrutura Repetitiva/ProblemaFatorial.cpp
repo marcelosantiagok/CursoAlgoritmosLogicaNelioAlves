@@ -10,6 +10,18 @@ fatorial de N.
 using namespace std;
 
 int main(){
+	
+	int n, fat;
+	fat = 1;
+	
+	cout << "Digite o valor de N: ";
+	cin >> n;
+	
+	for(int i=n;i>0;i--){
+		fat = fat * i;
+	}
+	
+	cout << "FATORIAL = " << fat;
 
     return 0;
 }

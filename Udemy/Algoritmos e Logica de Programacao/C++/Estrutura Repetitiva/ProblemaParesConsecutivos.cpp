@@ -15,5 +15,24 @@ using namespace std;
 
 int main(){
 
+	int num, soma;
+	num =0;
+	soma =0;
+
+	cout << "Digite um numero inteiro: ";
+	cin >> num;
+	
+	while(num!=0){
+		if(num % 2 != 0){
+			num = num + 1;
+			soma = num *5 + 20;
+		}else{
+			soma = num *5 + 20;
+		}
+		cout << "SOMA = " << soma << endl;
+		cout << "Digite um numero inteiro: ";
+		cin >> num;
+	}
+
     return 0;
 }
