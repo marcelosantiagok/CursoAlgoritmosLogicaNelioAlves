@@ -14,7 +14,14 @@ fatorial de N.
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.print("Digite o valor de N: ");
+		int n = sc.nextInt();
+		int fat = 1;
+		for(int i = n;i>0;i--) {
+			fat = fat * i;
+		}
 		
+		System.out.println("FATORIAL = "+fat);
 
 		sc.close();
 

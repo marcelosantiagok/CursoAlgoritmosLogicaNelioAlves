@@ -4,3 +4,14 @@ for igual a 0). Para cada X lido, imprima a soma dos 5 pares consecutivos a part
 , se for par. Se o valor de entrada for 4, por exemplo, a saída deve ser 40, que é o resultado da operação:
 4+6+8+10+12, enquanto que se o valor de entrada for 11, por exempo, a saída deve ser 80, que é a
 soma de 12+14+16+18+20.'''
+
+n = int(input("Digite um numero inteiro:"))
+soma: int;
+while n !=0:
+    if n%2!=0:
+        n = n+1
+    soma = n * 5 + 20
+    print(f"SOMA = {soma}")
+    n = int(input("Digite um numero inteiro:"))
+
+

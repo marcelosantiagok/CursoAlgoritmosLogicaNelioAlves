@@ -24,8 +24,41 @@ percentual deve ser apresentado com dois dígitos após o ponto.
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		int qtdCobaias = 0,totalCobaias = 0,c=0,r=0,s=0;
+		char tipo;
+		double percent = 0.0;
 		
-
+		System.out.print("Quantos casos de teste serao digitados?");
+		int n = sc.nextInt();
+		for(int i=0;i<n;i++) {
+			System.out.print("Quantidade de cobaias: ");
+			qtdCobaias = sc.nextInt();
+			sc.nextLine();
+			System.out.print("Tipo de cobaia: ");
+			tipo = sc.next().charAt(0);
+			totalCobaias = totalCobaias + qtdCobaias;
+			if((tipo == 'C')||(tipo == 'c')) {
+				c = c + qtdCobaias;
+			}else if((tipo == 'R')||(tipo == 'r')) {
+				r= r + qtdCobaias;
+			}else if((tipo == 'S')||(tipo == 's')) {
+				s = s + qtdCobaias;
+			}
+		}
+		
+		System.out.println("RELATORIO FINAL: ");
+		System.out.println("Total: "+totalCobaias+" cobaias");
+		System.out.println("Total de coelhos: "+c);
+		System.out.println("Total de ratos: "+r);
+		System.out.println("Total de sapos: "+s);
+		
+		percent = (c * 100.00)/totalCobaias; 
+		System.out.println("Percentual de coelhos: "+String.format("%.2f", percent));
+		percent = (r * 100.00)/totalCobaias; 
+		System.out.println("Percentual de ratos: "+String.format("%.2f", percent));
+		percent = (s * 100.00)/totalCobaias; 
+		System.out.println("Percentual de sapos: "+String.format("%.2f", percent));
+		
 		sc.close();
 
 	}

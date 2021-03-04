@@ -16,8 +16,20 @@ pela soma dos pesos.
 		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
-		
+		double media,a,b,c;
+		a =0.0;
+		b=0.0;
+		c=0.0;
+		System.out.print("Quantos casos voce vai digitar? ");
+		int n = sc.nextInt();
+		for(int i=0;i<n;i++) {
+			System.out.println("Digite tres numeros: ");
+			a = sc.nextDouble();
+			b = sc.nextDouble();
+			c = sc.nextDouble();
+			media = ((a*2)+(b*3)+(c*5))/10;
+			System.out.println("MEDIA = "+String.format("%.1f", media));
+		}
 
 		sc.close();
 
