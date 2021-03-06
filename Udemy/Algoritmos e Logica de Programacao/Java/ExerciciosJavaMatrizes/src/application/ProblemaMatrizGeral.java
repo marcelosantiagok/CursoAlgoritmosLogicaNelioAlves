@@ -1,5 +1,8 @@
 package application;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class ProblemaMatrizGeral {
 
 	public static void main(String[] args) {
@@ -14,6 +17,10 @@ d) imprimir os elementos da diagonal principal da matriz.
 e) alterar a matriz elevando ao quadrado todos os números negativos da mesma. Em seguida imprimir
 a matriz alterada.
 		 * */
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		sc.close();
 
 	}
 

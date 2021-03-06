@@ -12,6 +12,34 @@ digitado, mostrar a mensagem "NENHUM NUMERO PAR"
 using namespace std;
 
 int main(){
+	
+	cout << "Quantos elementos vai ter o vetor? ";
+	int n =0;
+	cin >> n;
+	int i =0;
+	int vet[n];
+	int contPar =0;
+	double somaPar = 0.0;
+	double media = 0.0;
+	for(i=0;i<n;i++){
+		cout << "Digite um numero: ";
+		cin >> vet[i];
+		if(vet[i]%2==0){
+			somaPar = somaPar + vet[i];
+			contPar = contPar + 1;
+		}		
+	}
+	
+	media = (double)somaPar / contPar;
+	
+	cout << fixed << setprecision(1);
+	
+	if(contPar == 0){
+		cout << "NENHUM NUMERO PAR";
+	}else{
+		cout << "MEDIA DOS PARES = " << media;
+	}
+	
 
     return 0;
 }

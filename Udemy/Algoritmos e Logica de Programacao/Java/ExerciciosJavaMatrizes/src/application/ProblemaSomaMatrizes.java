@@ -1,5 +1,8 @@
 package application;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class ProblemaSomaMatrizes {
 
 	public static void main(String[] args) {
@@ -9,6 +12,10 @@ Fazer um programa para ler duas matrizes de números inteiros A e B, contendo de 
 cada (M e N máximo = 10). Depois, gerar uma terceira matriz C onde cada elemento desta é a soma
 dos elementos correspondentes das matrizes originais. Imprimir na tela a matriz gerada.
 		 * */
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		sc.close();
 
 	}
 
