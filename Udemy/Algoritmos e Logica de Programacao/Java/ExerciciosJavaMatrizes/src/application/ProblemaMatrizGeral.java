@@ -20,6 +20,75 @@ a matriz alterada.
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.print("Qual a ordem da matriz? ");
+        int n = sc.nextInt();
+        double[][] mat = new double[n][n];
+        int i=0;
+        int j=0;
+        double soma = 0.0;
+        int escolha =0;
+        for(i=0;i<n;i++){
+	        for(j=0;j<n;j++){
+                System.out.print("Elemento ["+i+","+j+"]: ");
+                mat[i][j] = sc.nextDouble();
+	        }
+        }
+
+        for(i=0;i<n;i++){
+	        for(j=0;j<n;j++){
+		        if(mat[i][j]>0.0){
+			        soma = soma + mat[i][j];
+		        }
+	        }
+        }
+
+        System.out.println("SOMA DOS POSITIVOS: "+soma);
+        System.out.print("Escolha uma linha: ");
+        escolha = sc.nextInt();
+
+        System.out.print("LINHA ESCOLHIDA: ");
+
+        for (i=0; i<n; i++) {
+            System.out.print(mat[escolha][i]+" ");
+        }
+
+        System.out.println();
+
+        System.out.print("Escolha uma coluna: ");
+        escolha = sc.nextInt();
+
+        System.out.print("COLUNA ESCOLHIDA: ");
+
+        for (i=0; i<n; i++) {
+            System.out.print(mat[i][escolha]+" ");
+        }
+
+        System.out.println();
+
+        System.out.print("DIAGONAL PRINCIPAL: ");
+
+        for (i=0; i<n; i++) {
+            System.out.print(mat[i][i]+" ");
+        }
+
+        System.out.println();
+        
+        for (i=0; i<n; i++) {
+            for (j=0; j<n; j++) {
+                if (mat[i][j] < 0) {
+                    mat[i][j] = Math.pow(mat[i][j], 2);
+                }
+            }
+        }
+        System.out.println("MATRIZ ALTERADA: ");
+
+        for (i=0; i<n; i++) {
+            for (j=0; j<n; j++) {
+                System.out.print(mat[i][j]+" ");
+            }
+            System.out.println();
+        }
+		
 		sc.close();
 
 	}

@@ -13,6 +13,30 @@ negativos da matriz.
 using namespace std;
 
 int main(){
+	
+	int n,i,j ,qtd;
+
+    cout << "Qual a ordem da matriz? ";
+    cin >> n;
+
+    int elemento[n][n];
+
+	for(i=0;i<n;i++){
+		for(j=0;j<n;j++){
+			cout << "Elemento " << i << ","<< j << "]: ";
+			cin >> elemento[i][j];
+			if(elemento[i][j]<0){
+				qtd = qtd+1;
+			}
+		}
+	}
+	
+	cout << "DIAGONAL PRINCIPAL: " << endl;
+	for(i=0;i<n;i++){
+		printf("%d ",elemento[i][i]);
+	}
+	cout << endl;
+	cout << "QUANTIDADE DE NEGATIVOS = " << qtd;
 
     return 0;
 }

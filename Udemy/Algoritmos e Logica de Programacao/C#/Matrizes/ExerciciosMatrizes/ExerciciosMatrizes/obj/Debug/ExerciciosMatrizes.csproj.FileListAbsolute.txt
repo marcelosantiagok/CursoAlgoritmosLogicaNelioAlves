@@ -1,0 +1,6 @@
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Matrizes\ExerciciosMatrizes\ExerciciosMatrizes\bin\Debug\ExerciciosMatrizes.exe.config
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Matrizes\ExerciciosMatrizes\ExerciciosMatrizes\bin\Debug\ExerciciosMatrizes.exe
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Matrizes\ExerciciosMatrizes\ExerciciosMatrizes\bin\Debug\ExerciciosMatrizes.pdb
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Matrizes\ExerciciosMatrizes\ExerciciosMatrizes\obj\Debug\ExerciciosMatrizes.csprojAssemblyReference.cache
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Matrizes\ExerciciosMatrizes\ExerciciosMatrizes\obj\Debug\ExerciciosMatrizes.exe
+C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Matrizes\ExerciciosMatrizes\ExerciciosMatrizes\obj\Debug\ExerciciosMatrizes.pdb

@@ -14,5 +14,28 @@ using namespace std;
 
 int main(){
 
+	cout << "Qual a ordem da matriz? ";
+	int n = 0;
+	cin >> n;
+	int i=0;
+	int j=0;
+	int soma =0;
+	int vet[n][n];
+	for(i=0;i<n;i++){
+		for(j=0;j<n;j++){
+			cout << "Elemento [" << i << "," << j << "]: ";
+			cin >> vet[i][j];
+		}
+	}
+	
+	for(i=0;i<n;i++){
+		for(j=0;j<n;j++){
+			if((i!=j)&&(j>i)){
+				soma = soma + vet[i][j];
+			}
+		}
+	}
+	
+	cout << "SOMA DOS ELEMENTOS ACIMA DA DIAGONAL PRINCIPAL = " << soma;
     return 0;
 }
