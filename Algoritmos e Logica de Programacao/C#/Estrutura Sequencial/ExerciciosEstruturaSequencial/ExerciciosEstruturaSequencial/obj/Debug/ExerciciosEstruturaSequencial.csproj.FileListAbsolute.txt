@@ -1,6 +1,0 @@
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Sequencial\ExerciciosEstruturaSequencial\ExerciciosEstruturaSequencial\bin\Debug\ExerciciosEstruturaSequencial.exe.config
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Sequencial\ExerciciosEstruturaSequencial\ExerciciosEstruturaSequencial\bin\Debug\ExerciciosEstruturaSequencial.exe
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Sequencial\ExerciciosEstruturaSequencial\ExerciciosEstruturaSequencial\bin\Debug\ExerciciosEstruturaSequencial.pdb
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Sequencial\ExerciciosEstruturaSequencial\ExerciciosEstruturaSequencial\obj\Debug\ExerciciosEstruturaSequencial.csprojAssemblyReference.cache
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Sequencial\ExerciciosEstruturaSequencial\ExerciciosEstruturaSequencial\obj\Debug\ExerciciosEstruturaSequencial.exe
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Estrutura Sequencial\ExerciciosEstruturaSequencial\ExerciciosEstruturaSequencial\obj\Debug\ExerciciosEstruturaSequencial.pdb

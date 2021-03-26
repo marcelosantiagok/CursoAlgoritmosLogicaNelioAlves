@@ -1,6 +1,0 @@
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Vetores\ExerciciosVetores\ExerciciosVetores\bin\Debug\ExerciciosVetores.exe.config
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Vetores\ExerciciosVetores\ExerciciosVetores\bin\Debug\ExerciciosVetores.exe
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Vetores\ExerciciosVetores\ExerciciosVetores\bin\Debug\ExerciciosVetores.pdb
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Vetores\ExerciciosVetores\ExerciciosVetores\obj\Debug\ExerciciosVetores.csprojAssemblyReference.cache
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Vetores\ExerciciosVetores\ExerciciosVetores\obj\Debug\ExerciciosVetores.exe
-C:\Users\MAELOH\Documents\Cursos\Udemy\Algoritmos e Logica de Programacao\C#\Vetores\ExerciciosVetores\ExerciciosVetores\obj\Debug\ExerciciosVetores.pdb
